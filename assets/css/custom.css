@@ -1,3 +1,46 @@
 #nivoslider {
 	display: block;
 }
+
+.person {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: -16px;
+	/*border: 10px solid #fff;*/
+}
+
+.displayPic {
+	border-color: #FFF;
+	border-style: solid;
+	border-width: 10px 10px 30px 10px;
+
+	margin-top: -10px;
+	margin-bottom: -10px;
+	/*Needed for antialiasing*/
+	outline: 0px solid transparent;
+}
+
+.dpLeft {
+	margin-left: -10px;
+	-webkit-transform: rotate(-6deg);
+	-moz-transform: rotate(-6deg);
+	rotate(-6deg);
+}
+
+.dpRight {
+	-webkit-transform: rotate(6deg);
+	-moz-transform: rotate(6deg);
+	rotate(6deg);
+	margin-left: 70px;
+}
+
+.displayPic:after {
+	content: attr(title);
+	font-family: 'Droid Sans',sans-serif;
+	font-size: 13px;
+	color: #999;
+}
+
+body {
+	background: url('../img/bg_texture.png') repeat;
+}
