@@ -1,5 +1,15 @@
 #nivoslider {
 	display: block;
+	margin: 40px auto 70px auto;
+}
+
+#mark-image {
+    -webkit-transform: rotate(6deg);
+	-moz-transform: rotate(6deg);
+	rotate(6deg);
+    border: 10px solid #FFFFFF;
+    float: right;
+    margin-left: 70px;
 }
 
 .person {
@@ -39,6 +49,11 @@
 	font-family: 'Droid Sans',sans-serif;
 	font-size: 13px;
 	color: #999;
+}
+
+h2 {
+	font-family: "Droid Serif", serif;
+	font-weight: bold;
 }
 
 body {
